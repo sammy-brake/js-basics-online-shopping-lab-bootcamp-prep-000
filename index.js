@@ -33,6 +33,10 @@ console.log("Your shopping cart is empty.");
 else if (i===1) {
 console.log(`In your cart, you have ${cart.itemName} at $${cart.itemPrice}`);
 }
+
+else {
+  console.log(`In your cart, you have mango at $${mangoCost} and nuts at $${nutsCost}.`);
+}
 }
 
 function total() {
