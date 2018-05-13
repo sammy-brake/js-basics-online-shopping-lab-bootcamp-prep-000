@@ -31,7 +31,7 @@ console.log("Your shopping cart is empty.");
 }
 
 else if (i===1) {
-console.log(cart);
+console.log(`In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}`);
 }
 }
 
