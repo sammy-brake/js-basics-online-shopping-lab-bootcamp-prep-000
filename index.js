@@ -22,7 +22,7 @@ function addToCart(item) {
 
 
 function viewCart() {
-  cart  =[];
+  cart  ={};
  
  var i = cart.length;
 
