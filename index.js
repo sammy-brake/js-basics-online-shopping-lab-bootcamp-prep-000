@@ -1,4 +1,4 @@
-var cart = {};
+var cart = [];
 
 function getCart() {
  return cart;
@@ -22,7 +22,7 @@ function addToCart(item) {
 
 
 function viewCart() {
-  cart  = {};
+  cart  = [];
  
  var i = cart.length;
 
