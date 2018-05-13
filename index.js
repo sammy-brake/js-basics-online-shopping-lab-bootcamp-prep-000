@@ -21,8 +21,8 @@ function addToCart(item) {
 
 
 
-function viewCart() {
-  cart  = [];
+function viewCart() { 
+  var cart  = [];
  
  var i = cart.length;
 
