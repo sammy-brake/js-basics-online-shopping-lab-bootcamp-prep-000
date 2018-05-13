@@ -22,13 +22,17 @@ function addToCart(item) {
 
 
 function viewCart() {
+  cart  =[];
  
  var i = cart.length;
 
 if(i === 0) {
-return "Your shopping cart is empty.";
+console.log("Your shopping cart is empty.");
 }
- 
+
+if(i===1) {
+console.log(`In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}.`);
+}
 }
 
 function total() {
