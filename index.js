@@ -34,11 +34,7 @@ else if (i===1) {
 console.log(`In your cart, you have ${cart.itemName[0]} at $${cart.itemPrice[0]}`);
 }
 
-else {
-  console.log(`In your cart, you have ${itemName[] at $${mangoCost} and nuts at $${nutsCost}.`);
 }
-}
-
 function total() {
   // write your code here
 }
