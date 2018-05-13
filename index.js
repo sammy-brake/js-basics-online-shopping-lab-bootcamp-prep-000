@@ -30,7 +30,7 @@ if(i === 0) {
 console.log("Your shopping cart is empty.");
 }
 
- else if (i===1) {
+ else (i===1) {
 console.log(cart);
 }
 }
