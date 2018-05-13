@@ -31,11 +31,11 @@ console.log("Your shopping cart is empty.");
 }
 
 else if (i===1) {
-console.log(`In your cart, you have ${cart.itemName} at $${cart.itemPrice}`);
+console.log(`In your cart, you have ${cart.itemName[0]} at $${cart.itemPrice[0]}`);
 }
 
 else {
-  console.log(`In your cart, you have mango at $${mangoCost} and nuts at $${nutsCost}.`);
+  console.log(`In your cart, you have ${itemName[] at $${mangoCost} and nuts at $${nutsCost}.`);
 }
 }
 
